@@ -19,7 +19,7 @@ html, body {
     font-size: 14px;
     font-weight: bold;
 
-    background: url("../imgs/background.png");
+    background: url("../imgs/_background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -465,6 +465,7 @@ html, body {
   box-sizing: border-box;
 
   position: relative;
+  left: 70px;
 
   float:right;
 
@@ -484,8 +485,7 @@ html, body {
 
 #copy {
   position: relative;
-  top: 170px;
-  left: -350px;
+  top: 80px;
 
 }
 
@@ -557,7 +557,6 @@ a, .social-link:visited, .social-link:active {
   float: left;
 
   text-align: left;
-  background: #97B8C9;
 }
 
 /*==============CONTACT FORM==============*/
