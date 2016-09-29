@@ -26,11 +26,13 @@
 
   <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
 
+<!--
   <script type="text/javascript">
       window.cookieconsent_options = {"message":"This website uses cookies to give you a better experience","dismiss":"Okay","learnMore":null,"link":null,"theme":"light-top"};
   </script>
 
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+-->
 
   <!-- End Cookie Consent plugin -->
 
@@ -46,11 +48,10 @@
         <div id="nav-wrap">
           <nav id="nav">
             <a href="index.htm"><li class="link active">Home</li></a>
-            <!--<a href="#"><li class="buy">Store</li></a>-->
-            <a href="#"><li class="link">Media</li></a>
-            <a href="http://robtheswan.com/wiki/index.php?title=Main_Page" target="_blank" title="Opens a new tab"><li class="link">Wiki</li></a>
+            <a href="media.htm"><li class="link">Download</li></a>
+            <a href="contact.htm"><li class="link">Devlog</li></a>
+            <a href="media.htm"><li class="link">Media &amp; Press</li></a>
             <a href="contact.htm"><li class="link">Contact</li></a>
-            <a href="faq.htm"><li class="link">FAQ</li></a>
           </nav>
         </div>
 
@@ -74,18 +75,17 @@
       </header>
 
       <div id="trailer">
-        <img id="trailer-img" src="imgs/placeholder.png" alt="trailer placeholder image"></img>
+        <div style="position: relative; padding-bottom: 56.25%; height: 0;margin-bottom: 16px;overflow: hidden;"> <iframe allowfullscreen="" frameborder="0" height="100%" src="https://www.youtube.com/embed/qEYOyZVWlzs?list=PLzPGxMkpbClUgWjg7QiV5dqeCTQh8M-6t" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" width="100%"></iframe></div>
       </div>
 
       <section class="section">
         <header class="section-head">
-          Supported Platforms
+          Download
         </header>
         <div class="section-desc">
-          Diorama currently supports Windows, Mac and Linux. Click on the download
-          icons to get your copy of the game. <br>
+          Version Number: 0.44.0. <a href="release-notes.htm" class="text-link">Release Notes</a><p>
+          
 
-          <h3>All Downloads</h3>
           <div class="platform">
             <header id="win-head" class="platform-header"></header>
             <div class="platform-desc">
@@ -128,9 +128,6 @@
               <header id="linux-head" class="platform-header"></header>
                 <div class="platform-desc">
                 LINUX
-                <a href="#" class="foot-link" onclick="help(); return false;">
-                  <div id="helplink">Which link should I use?</div>
-                </a>
               </div>
 
               <a href="http://bit.ly/1rdvJja">
@@ -139,11 +136,21 @@
                 </div>
               </a>
             </div>
-          </div>
       </section>
 
       <section class="section">
-        <header class="section-head">Features</header>
+        <header class="section-head">Devlog</header>
+        <div class="section-desc">
+            <ul>
+                <li></a><a href="devlog/weekly-update-02.htm" class="text-link">Weekly Development Update 2.</a> 29-09-2016</li>
+                <li></a><a href="devlog/weekly-update-01.htm" class="text-link">Weekly Development Update 1.</a> 29-09-2016</li>
+                <li></a><a href="devlog/welcome-to-your-doom.htm" class="text-link">Welcome to your doom.</a> 29-09-2016</li>
+            </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <header class="section-head">About</header>
         <div class="section-desc">
           <!--Diorama: The Infinite Survival Crafting Game With Space Ships, Naval Combat and the Best Mod Support of Any Game Ever*** <br>
           <small>*water maybe included depending on the day</small><br>
@@ -156,6 +163,15 @@
 
           "The infinite landscape is so procedurally large that the likelihood of seeing other players, water or gameplay is limited"
           - RobTheSwan 2016<br>-->
+
+          It is currently a blockly/voxel game. Its currently named Diorama and
+          at the moment it looks like something you would see from early Minecraft.<p>
+
+          As development continues it will stand apart from other voxel games, as of yet
+          it is too early to show these differences.<p>
+
+          Nothing is set in stone as of yet, feel free to pop over to the live development
+          and suggest some ideas. Good suggestions are always welcome.<p>
 
           <h3>What you can do with it right now?</h3>
           <ul>
@@ -187,68 +203,45 @@
         </div>
       </section>
 
-      <section class="section">
-        <header class="section-head">About</header>
-        <div class="section-desc">
-          It is currently a blockly/voxel game. Its currently named Diorama and
-          at the moment it looks like something you would see from early Minecraft.
-
-          As development continues it will stand apart from other voxel games, as of yet
-          it is too early to show these differences.
-
-          Nothing is set in stone as of yet, feel free to pop over to the live development
-          and suggest some ideas. Good suggestions are always welcome.
-
-          <br><br>
-
-          For all those techy people out there, the engine was developed from scratch using;
-
-          <ul>
-            <li>C++</li>
-            <li>Raknet</li>
-            <li>OpenGL</li>
-            <li>GLM</li>
-            <li>GLFW</li>
-            <li>zLib</li>
-            <li>Other 3rd Party Libraries</li>
-          </ul>
-
-          In terms of modding and scripting the engine is using Lua.
-
-        </div>
-      </section>
-
       <div id="foot-wrap">
         <div id="foot-left" class="foot-box">
           <br>
           <nav id="foot-nav">
+
             <a href="index.htm"><li class="foot-link">Home</li></a>
-            <!--<a href="#"><li class="buy">Store</li></a>-->
-            <a href="#"><li class="foot-link">Media</li></a>
-            <a href="#"><li class="foot-link">Wiki</li></a>
-            <a href="contact.htm"><li class="foot-link">Contact</li></a>
-            <a href="faq.htm"><li class="foot-link">FAQ</li></a>
+            <a href="#"><li class="foot-link">Download</li></a>
+            <a href="#"><li class="foot-link">Devlog</li></a>
+            <a href="contact.htm"><li class="foot-link">Media &amp; Press</li></a>
+            <a href="faq.htm"><li class="foot-link">Contact</li></a>
           </nav>
 
         </div>
 
         <div id="foot-mid" class="foot-box">
           <div id="social">
-            <a href="#" target="_blank">
-              <div id="fb" class="social-link"></div>
+
+            <a href="http://twitch.tv/robtheswan" target="_blank">
+              <div id="twitch" class="social-link"></div>
             </a>
 
-            <a href="#" target="_blank">
+            <a href="http://twitter.com/robtheswandev" target="_blank">
               <div id="twitter" class="social-link"></div>
             </a>
+
+            <a href="http://youtube.com/c/dioramagame" target="_blank">
+              <div id="youtube" class="social-link"></div>
+            </a>
+
           </div>
 
-          &copy; Diorama 2016. All Rights Reserved.
+            <a href="#" class="foot-link">Sitemap</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" class="foot-link">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" class="foot-link">Terms of use</a>
 
-          <br><br>
+            <br><br>
 
-          <a href="#" class="foot-link">Privacy</a>
-          <a href="#" class="foot-link">Terms of use</a>
+            &copy; Diorama 2016. All Rights Reserved.
+
         </div>
 
         <div id="foot-right" class="foot-box">
@@ -263,11 +256,5 @@
 
     <!--Custom Scripts-->
     <script src="js/switchmenu.js"></script>
-
-    <script type="text/javascript">
-      function help() {
-        swal("Which version do I need?", "If your machine is old, get x86. If its a newer machine, get x64")
-      };
-    </script>
   </body>
 </html>
