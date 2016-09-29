@@ -3,69 +3,75 @@
 /*Icons made by Lyolya         - Creative Commons 3.0 (creativecommons.org/licenses/by/3.0) */
 /*Icons made by Gregor Cresnar - Creative Commons 3.0 (creativecommons.org/licenses/by/3.0) */
 
+
+/*@import 'https://fonts.googleapis.com/css?family=Monoton';*/
 @import 'https://fonts.googleapis.com/css?family=Baloo+Da';
+/*@import 'https://fonts.googleapis.com/css?family=Margarine';*/
+/*@import 'https://fonts.googleapis.com/css?family=McLaren';*/
+/*@import 'https://fonts.googleapis.com/css?family=Fredoka+One';*/
+@import 'https://fonts.googleapis.com/css?family=Hammersmith+One';
 
 html, body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 
-  /*Font Stuff*/
-  font-family: 'Baloo Da', cursive;
+    /*Font Stuff*/
+    font-family: 'Hammersmith One', cursive;
 
-  font-size: 14px;
-  font-weight: bold;
+    font-size: 14px;
+    font-weight: bold;
 
-  background: url("../imgs/background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background: url("../imgs/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
-  width: 1100px;
-  height: auto;
+    width: 1100px;
+    height: auto;
 
-  margin: 0 auto;
+    margin: 0 auto;
 
-  position: relative;
+    position: relative;
 }
 
 #main-header {
-  width: 100%;
-  height: 135px;
+    width: 100%;
+    height: 135px;
 }
 
 /*==============LOGO==============*/
 
 #logo {
-  width: 100px;
-  height: 150px;
+    width: 100px;
+    height: 150px;
 
-  position: relative;
+    position: relative;
 
-  background: url(../imgs/logo.png);
-  background-size: 60%;
-  background-position: center;
-  background-repeat: no-repeat;
+    background: url(../imgs/logo.png);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #logo-text {
-  width: 100px;
-  height: auto;
+    width: 100px;
+    height: auto;
 
-  position: relative;
-  top: -30px;
+    position: relative;
+    top: -30px;
 
-  /*Font Stuff*/
-  font-family: 'Baloo Da', cursive;
+    /*Font Stuff*/
+    /*font-family: 'Baloo Da', cursive;*/
 
-  font-size: 24px;
-  font-weight: bold;
+    font-size: 24px;
+    font-weight: bold;
 
-  text-align: center;
+    text-align: center;
 }
 
 /*==============NAVIGATION==============*/
@@ -77,7 +83,7 @@ html, body {
   float: right;
 
   /*Font Stuff*/
-  font-family: 'Baloo Da', cursive;
+  /*font-family: 'Baloo Da', cursive;*/
 
   font-size: 18px;
   font-weight: bold;
@@ -231,7 +237,7 @@ html, body {
   margin-bottom: 10px;
 
   /*Font Stuff*/
-  font-family: 'Baloo Da', cursive;
+  /*font-family: 'Baloo Da', cursive;*/
 
   font-size: 16px;
   font-weight: normal;
@@ -242,6 +248,8 @@ html, body {
   height: 45px;
 
   margin: 0 auto;
+
+    font-family: 'Baloo Da', cursive;
 
   box-sizing: border-box;
   padding-left: 10px;
@@ -277,8 +285,8 @@ html, body {
   border: 1px solid black;
 
   /*Font Stuff*/
-  font-family: 'Baloo Da', cursive;
-
+/*  font-family: 'Baloo Da', cursive;
+*/
   font-size: 15px;
   font-weight: normal;
 
@@ -393,12 +401,23 @@ html, body {
 
 /*==============FOOTER==============*/
 #social {
-  width: 160px;
+  width: 240px;
   height: 80px;
 
   position: relative;
 
   margin: 0 auto;
+}
+
+#twitch {
+  position: relative;
+  top: 10px;
+  left: -30px;
+
+  background: url("../imgs/twitch-icon-small.png");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #fb {
@@ -420,6 +439,19 @@ html, body {
   left: 30px;
 
   background: url("../imgs/twitter.png");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#youtube {
+
+  position: relative;
+
+  top: -118px;
+  left: 90px;
+
+  background: url("../imgs/youtube.png");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -460,6 +492,17 @@ html, body {
 a, .social-link:visited, .social-link:active {
   outline: 0;
   border: none;
+
+}
+
+.text-link {
+    text-decoration: none;
+    color: darkblue;  
+}
+
+.text-link:hover {
+    text-decoration: underline;
+    color: lightcyan;
 }
 
 .foot-link {
