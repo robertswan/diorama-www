@@ -38,6 +38,7 @@
     <div class="container">
 
       <?php
+        $headerSelectedIdx = "contact";
         include ("includes/header.php");
       ?>
 

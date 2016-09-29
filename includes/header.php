@@ -1,3 +1,14 @@
+<?php
+
+    function getHeaderClass ($idx)
+    {
+        global $headerSelectedIdx;
+        echo ($idx == $headerSelectedIdx) ? "\"link active\"" : "\"link\"";
+    }
+
+?>
+
+
 <header id="main-header">
   <div class="three columns">
     <a href="index.htm">
@@ -7,12 +18,12 @@
 
   <div id="nav-wrap">
     <nav id="nav">
-      <a href="index.php"><li class="link active">Home</li></a>
-      <a href="index.php#download"><li class="link">Download</li></a>
-      <a href="faq.php"><li class="link">FAQ</li></a>
-      <a href="devlog.php"><li class="link">Devlog</li></a>
-      <a href="media.php"><li class="link">Media &amp; Press</li></a>
-      <a href="contact.php"><li class="link">Contact</li></a>
+        <a href="index.php"><li             class=<?php getHeaderClass("home");?>>Home</li></a>
+        <a href="index.php#download"><li    class=<?php getHeaderClass("download");?>>Download</li></a>
+        <a href="faq.php"><li               class=<?php getHeaderClass("faq");?>>FAQ</li></a>
+        <a href="devlog.php"><li            class=<?php getHeaderClass("devlog");?>>Devlog</li></a>
+        <a href="media.php"><li             class=<?php getHeaderClass("media");?>>Media &amp; Press</li></a>
+        <a href="contact.php"><li           class=<?php getHeaderClass("contact");?>>Contact</li></a>
     </nav>
   </div>
 

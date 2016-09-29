@@ -39,6 +39,7 @@
   <body class="menu">
     <div class="container">
       <?php
+        $headerSelectedIdx = "devlog";
         include ("includes/header.php");
       ?>
 

@@ -44,6 +44,7 @@
   <body class="menu">
     <div class="container">
       <?php
+        $headerSelectedIdx = "media";
         include ("includes/header.php");
       ?>
 

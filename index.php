@@ -40,6 +40,7 @@
     <div class="container">
 
       <?php
+        $headerSelectedIdx = "home";
         include ("includes/header.php");
       ?>
 

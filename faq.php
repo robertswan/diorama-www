@@ -33,6 +33,7 @@
   <body class="menu">
     <div class="container">
       <?php
+        $headerSelectedIdx = "faq";
         include ("includes/header.php");
       ?>
 
