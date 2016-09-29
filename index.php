@@ -38,42 +38,10 @@
 
   <body class="menu">
     <div class="container">
-      <header id="main-header">
-        <div class="three columns">
-          <a href="index.htm">
-            <div id="logo"></div>
-          </a>
-        </div>
 
-        <div id="nav-wrap">
-          <nav id="nav">
-            <a href="index.htm"><li class="link active">Home</li></a>
-            <a href="#download"><li class="link">Download</li></a>
-            <a href="faq.htm"><li class="link">FAQ</li></a>
-            <a href="devlog.htm"><li class="link">Devlog</li></a>
-            <a href="media.htm"><li class="link">Media &amp; Press</li></a>
-            <a href="contact.htm"><li class="link">Contact</li></a>
-          </nav>
-        </div>
-
-        <div id="nav-mobile">
-          <a href="#" class="menu_toggle">
-            <img id="menuImg" src="imgs/menu.png" data-swap="imgs/close.png">
-          </a>
-        </div>
-
-        <div class="menu_slide">
-          <h2>Menu</h2>
-          <nav>
-            <a href="index.htm"><li class="mobile-link">Home</li></a>
-            <!--<a href="#"><li class="buy">Store</li></a>-->
-            <a href="#"><li class="mobile-link">Media</li></a>
-            <a href="http://robtheswan.com/wiki/index.php?title=Main_Page" target="_blank" title="Opens a new tab"><li class="mobile-link">Wiki</li></a>
-            <a href="contact.htm"><li class="mobile-link">Contact</li></a>
-            <a href="faq.htm"><li class="mobile-link">FAQ</li></a>
-          </nav>
-        </div>
-      </header>
+      <?php
+        include ("includes/header.php");
+      ?>
 
       <div id="trailer">
         <iframe width="100%" height="600px" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/qEYOyZVWlzs?list=PLzPGxMkpbClUgWjg7QiV5dqeCTQh8M-6t"></iframe>
@@ -205,47 +173,10 @@
         </div>
       </section>
 
-      <div id="foot-wrap">
-        <div id="foot-left" class="foot-box">
-          <br>
-          <nav id="foot-nav">
-            <a href="index.htm"><li class="foot-link">Home</li></a>
-            <a href="#download"><li class="foot-link">Download</li></a>
-            <a href="faq.htm"><li class="foot-link">FAQ</li></a>
-            <a href="devlog.htm"><li class="foot-link">Devlog</li></a>
-            <a href="media.htm"><li class="foot-link">Media &amp; Press</li></a>
-            <a href="contact.htm"><li class="foot-link">Contact</li></a>
-          </nav>
-        </div>
+      <?php
+        include ("includes/footer.php");
+      ?>
 
-        <div id="foot-mid" class="foot-box">
-            <span id="copy">&copy; Diorama 2016. All Rights Reserved.</span>
-        </div>
-
-        <div id="foot-right" class="foot-box">
-          <!--<h2>Having issues with your order?</h2>
-          <h3>Contact us: orders@diorama.com</h3>-->
-          <div id="social">
-            <a href="http://twitch.tv/robtheswan" target="_blank">
-              <div id="twitch" class="social-link"></div>
-            </a>
-
-            <a href="http://twitter.com/robtheswandev" target="_blank">
-              <div id="twitter" class="social-link"></div>
-            </a>
-
-            <a href="http://youtube.com/c/dioramagame" target="_blank">
-              <div id="youtube" class="social-link"></div>
-            </a>
-          </div>
-
-          <div id="link-right">
-            <a href="#" class="foot-link">Sitemap</a>
-            <a href="#" class="foot-link">Privacy</a>
-            <a href="#" class="foot-link">Terms of use</a>
-          </div>
-        </div>
-      </div>
     </div>
 
     <!--JQuery-->
