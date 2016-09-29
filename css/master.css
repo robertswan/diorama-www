@@ -3,12 +3,7 @@
 /*Icons made by Lyolya         - Creative Commons 3.0 (creativecommons.org/licenses/by/3.0) */
 /*Icons made by Gregor Cresnar - Creative Commons 3.0 (creativecommons.org/licenses/by/3.0) */
 
-
-/*@import 'https://fonts.googleapis.com/css?family=Monoton';*/
 @import 'https://fonts.googleapis.com/css?family=Baloo+Da';
-/*@import 'https://fonts.googleapis.com/css?family=Margarine';*/
-/*@import 'https://fonts.googleapis.com/css?family=McLaren';*/
-/*@import 'https://fonts.googleapis.com/css?family=Fredoka+One';*/
 @import 'https://fonts.googleapis.com/css?family=Hammersmith+One';
 
 html, body {
@@ -24,7 +19,7 @@ html, body {
     font-size: 14px;
     font-weight: bold;
 
-    background: url("../imgs/background.jpg");
+    background: url("../imgs/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -411,8 +406,8 @@ html, body {
 
 #twitch {
   position: relative;
-  top: 10px;
-  left: -30px;
+
+  float: left;
 
   background: url("../imgs/twitch-icon-small.png");
   background-size: 60%;
@@ -420,23 +415,22 @@ html, body {
   background-repeat: no-repeat;
 }
 
-#fb {
+/*#fb {
   position: relative;
   top: 10px;
-  left: -30px;
+  left: -80px;
 
   background: url("../imgs/facebook.png");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
-}
+}*/
 
 #twitter {
 
   position: relative;
 
-  top: -54px;
-  left: 30px;
+  float: left;
 
   background: url("../imgs/twitter.png");
   background-size: 60%;
@@ -445,11 +439,9 @@ html, body {
 }
 
 #youtube {
-
   position: relative;
 
-  top: -118px;
-  left: 90px;
+  float: left;
 
   background: url("../imgs/youtube.png");
   background-size: 60%;
@@ -465,6 +457,7 @@ html, body {
 
   color: white;
   font-size: 18px;
+
 }
 
 #foot-right {
@@ -474,10 +467,25 @@ html, body {
   position: relative;
 
   float:right;
+
+  text-align: center;
+  font-size: 14px;
+}
+
+#foot-nav {
+  position: relative;
+  top: -10px;
 }
 
 #foot-nav a {
   text-decoration: none;
+
+}
+
+#copy {
+  position: relative;
+  top: 130px;
+  left: -350px;
 
 }
 
@@ -486,7 +494,28 @@ html, body {
   height: 64px;
 
   margin: 0 auto;
+}
 
+#social {
+  width: 100%;
+  height: auto;
+
+  position: relative;
+  top: 20px;
+  left: 85px;
+
+  margin: 0 auto;
+}
+
+#link-right {
+  width: 100%;
+  height: auto;
+
+  margin: 0 auto;
+
+  position: relative;
+  top: 90px;
+  left: -100px;
 }
 
 a, .social-link:visited, .social-link:active {
@@ -497,7 +526,7 @@ a, .social-link:visited, .social-link:active {
 
 .text-link {
     text-decoration: none;
-    color: darkblue;  
+    color: darkblue;
 }
 
 .text-link:hover {
@@ -506,6 +535,10 @@ a, .social-link:visited, .social-link:active {
 }
 
 .foot-link {
+  position: relative;
+
+  margin-left: 15px;
+
   text-decoration: none;
   list-style: none;
   color: white; /*#8BBCCC;*/
@@ -519,11 +552,12 @@ a, .social-link:visited, .social-link:active {
 
 .foot-box {
   width: 33%;
-  height: 200px;
+  height: 160px;
 
   float: left;
 
-  text-align: center;
+  text-align: left;
+  background: #97B8C9;
 }
 
 /*==============CONTACT FORM==============*/
@@ -765,9 +799,21 @@ a, .social-link:visited, .social-link:active {
 @media screen and (-webkit-min-device-pixel-ratio:0)
   and (min-resolution:.001dpcm) {
 
+    #nav {
+      z-index: 3;
+    }
+
     #trailer {
+        z-index: 2;
         position: relative;
-        top: -70px;
+        top: -5px;
+
+    }
+
+    iframe {
+      position: relative;
+      top: -60px;
+      z-index: 1;
     }
 }
 
