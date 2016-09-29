@@ -2,12 +2,12 @@
   <div id="foot-left" class="foot-box">
     <br>
     <nav id="foot-nav">
-      <a href="index.htm"><li class="foot-link">Home</li></a>
-      <a href="#download"><li class="foot-link">Download</li></a>
-      <a href="faq.htm"><li class="foot-link">FAQ</li></a>
-      <a href="devlog.htm"><li class="foot-link">Devlog</li></a>
-      <a href="media.htm"><li class="foot-link">Media &amp; Press</li></a>
-      <a href="contact.htm"><li class="foot-link">Contact</li></a>
+      <a href="index.php"><li class="foot-link">Home</li></a>
+      <a href="index.php#download"><li class="foot-link">Download</li></a>
+      <a href="faq.php"><li class="foot-link">FAQ</li></a>
+      <a href="devlog.php"><li class="foot-link">Devlog</li></a>
+      <a href="media.php"><li class="foot-link">Media &amp; Press</li></a>
+      <a href="contact.php"><li class="foot-link">Contact</li></a>
     </nav>
   </div>
 

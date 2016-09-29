@@ -11,7 +11,7 @@
 
 <header id="main-header">
   <div class="three columns">
-    <a href="index.htm">
+    <a href="index.php">
       <div id="logo"></div>
     </a>
   </div>
