@@ -425,22 +425,31 @@ html, body {
 */}
 
 #foot-wrap {
+
   width: 100%;
-  height: auto;
+  /*height: 100px;*/
 
   margin: 0 auto;
 
   color: white;
   font-size: 18px;
 
+  /*background: #97B8C9;*/
+  background: #5d94b2;
+  /*background: black;*/
 }
 
 #foot-left {
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 33%;
     text-align: center;
 }
 
 #foot-right {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
 
     width: 66%;
   /*padding-left: 10px;*/
@@ -454,11 +463,10 @@ html, body {
   font-size: 14px;
 }
 
-#foot-nav {
+/*#foot-nav {
   position: relative;
-  top: -10px;
 }
-
+*/
 #foot-nav a {
   text-decoration: none;
 
@@ -544,13 +552,12 @@ a, .social-link:visited, .social-link:active {
 }
 
 .foot-bg {
-  width: 45%;
-  height: 200px;
-
+  /*width: 45%;*/
+/*  height: 200px;
+*/
   float: left;
 
   text-align: left;
-  background: #97B8C9;
 }
 
 /*==============CONTACT FORM==============*/
