@@ -813,7 +813,7 @@ a, .social-link:visited, .social-link:active {
       z-index: 1;
     }
 
-    img {
+    #trailer-img {
       position: relative;
       top: -60px;
       z-index: 1;
