@@ -403,26 +403,26 @@ html, body {
 #twitch {
 
   background: url("../imgs/twitch-icon-small.png");
-/*  background-size: 60%;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-*/}
+}
 
 #twitter {
 
   background: url("../imgs/twitter.png");
-/*  background-size: 60%;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-*/}
+}
 
 #youtube {
 
   background: url("../imgs/youtube.png");
-/*  background-size: 60%;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-*/}
+}
 
 #foot-wrap {
 
