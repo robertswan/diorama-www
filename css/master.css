@@ -19,7 +19,7 @@ html, body {
     font-size: 14px;
     font-weight: bold;
 
-    background: url("../imgs/_background.png");
+    background: url("../imgs/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -805,11 +805,15 @@ a, .social-link:visited, .social-link:active {
     #trailer {
         z-index: 2;
         position: relative;
-        top: -5px;
-
     }
 
     iframe {
+      position: relative;
+      top: -60px;
+      z-index: 1;
+    }
+
+    img {
       position: relative;
       top: -60px;
       z-index: 1;
