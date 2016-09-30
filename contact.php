@@ -44,17 +44,46 @@
 
       <section class="section">
         <header class="section-head">Contact</header>
-        <div class="section-desc">
-          <h4>I'd love to hear your comments! Every last soul-sucking, depressing and stultifyingly ill-informed comment. Yes, every last one.</h4>
-          <form id="form" method="post" action="includes/mail.php">
-            <input  class="field" type="text"  placeholder="Your name"  autocomplete="off" required="required" name="fname" /> <br>
-            <input  class="field" type="email" placeholder="Your email" autocomplete="off" required="required" name="email" /> <br>
-            <textarea id="textarea" placeholder="Explode your brain on me here." required="required" name="message"></textarea>
 
+        <div class="section-desc">
+          <h4>Newsletter</h4>
+          Sign up to the weekly newsletter for Diorama updates and many interesting things that I can't yet quite imagine.
+          <p>
+          <div class="indicates-required"><span class="asterisk">*</span> indicates a required field.</div>
+          <p>
+        <form id="form-newsletter" class="myform" action="//game.us14.list-manage.com/subscribe/post?u=be48b16c3f53964033e8ea16d&amp;id=8baa1d2c98" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/Diorama', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+            <input class="field" type="text" name="EMAIL" placeholder="Your email *"/>
+            <input class="field" type="text" name="FNAME" placeholder="Your first name"/>
+            <input class="field" type="text" name="LNAME" placeholder="Your last name"/>
+            <p>
+            <input class="button" type="submit" value="Subscribe" />
+            <input type="hidden" value="1" name="embed"/>
+        </form>
+        </div> 
+
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>       
+        
+        <div class="section-desc">
+          <h4>Message</h4>
+          ...OR I'd love to hear your comments! Every last soul-sucking, depressing and stultifyingly ill-informed comment. Yes, every last one.
+          <p>
+          <div class="indicates-required"><span class="asterisk">*</span> indicates a required field.</div>
+          <p>
+          <form id="form-email" class="myform" method="post" action="includes/mail.php">
+            <input  class="field" type="email" placeholder="Your email *" autocomplete="off" required="required" name="email"/><br>
+            <input  class="field" type="text"  placeholder="Your name"  autocomplete="off" required="required" name="fname"/><br>
+            <textarea id="textarea" placeholder="Explode your brain on me here." required="required" name="message"></textarea>
             <input class="button" type="submit" value="Send" />
           </form>
         </div>
+
+        
       </section>
+
+
+
+         
 
       <?php
         include ("includes/footer.php");
