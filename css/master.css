@@ -396,58 +396,33 @@ html, body {
 
 /*==============FOOTER==============*/
 #social {
-  width: 240px;
-  height: 80px;
-
-  position: relative;
 
   margin: 0 auto;
 }
 
 #twitch {
-  position: relative;
-
-  float: left;
 
   background: url("../imgs/twitch-icon-small.png");
-  background-size: 60%;
+/*  background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-/*#fb {
-  position: relative;
-  top: 10px;
-  left: -80px;
-
-  background: url("../imgs/facebook.png");
-  background-size: 60%;
-  background-position: center;
-  background-repeat: no-repeat;
-}*/
+*/}
 
 #twitter {
 
-  position: relative;
-
-  float: left;
-
   background: url("../imgs/twitter.png");
-  background-size: 60%;
+/*  background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
-}
+*/}
 
 #youtube {
-  position: relative;
-
-  float: left;
 
   background: url("../imgs/youtube.png");
-  background-size: 60%;
+/*  background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
-}
+*/}
 
 #foot-wrap {
   width: 100%;
@@ -460,9 +435,16 @@ html, body {
 
 }
 
+#foot-left {
+    width: 33%;
+    text-align: center;
+}
+
 #foot-right {
-  padding-left: 10px;
-  box-sizing: border-box;
+
+    width: 66%;
+  /*padding-left: 10px;*/
+  /*box-sizing: border-box;*/
 
   position: relative;
 
@@ -483,39 +465,50 @@ html, body {
 }
 
 #copy {
-  position: relative;
+/*  position: relative;
   top: 170px;
   left: -350px;
-
+*/
 }
 
 .social-link {
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
 
-  margin: 0 auto;
+  margin:0 10px 0 0px;
+  /*margin: 0 auto;*/
+  border: 15px;
+
+  display: inline-block;
+
+  /*float: left;*/
 }
 
 #social {
   width: 100%;
   height: auto;
 
+  /*padding: 20px;*/
   position: relative;
-  top: 20px;
-  left: 85px;
 
-  margin: 0 auto;
+  text-align: center;
+
+/*  top: 20px;
+  left: 85px;*/
+
+  /*margin: 0 auto;*/
 }
 
 #link-right {
-  width: 100%;
+    clear: both;
+/*  width: 100%;
   height: auto;
 
   margin: 0 auto;
 
   position: relative;
   top: 90px;
-  left: -100px;
+  left: -100px;*/
 }
 
 a, .social-link:visited, .social-link:active {
@@ -535,23 +528,23 @@ a, .social-link:visited, .social-link:active {
 }
 
 .foot-link {
-  position: relative;
+/*  position: relative;
 
   margin-left: 15px;
 
   text-decoration: none;
   list-style: none;
-  color: white; /*#8BBCCC;*/
+  color: white;
 
   font-size: 16px;
-}
+*/}
 
 .foot-link:hover {
   text-decoration: underline;
 }
 
-.foot-box {
-  width: 33%;
+.foot-bg {
+  width: 45%;
   height: 200px;
 
   float: left;

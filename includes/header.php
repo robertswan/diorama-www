@@ -1,17 +1,14 @@
 <?php
-
     function getHeaderClass ($idx)
     {
         global $headerSelectedIdx;
         echo ($idx == $headerSelectedIdx) ? "\"link active\"" : "\"link\"";
     }
-
 ?>
-
 
 <header id="main-header">
   <div class="three columns">
-    <a href="index.htm">
+    <a href="index.php">
       <div id="logo"></div>
     </a>
   </div>
@@ -36,12 +33,12 @@
   <div class="menu_slide">
     <h2>Menu</h2>
     <nav>
-      <a href="index.htm"><li class="mobile-link">Home</li></a>
-      <!--<a href="#"><li class="buy">Store</li></a>-->
-      <a href="#"><li class="mobile-link">Media</li></a>
-      <a href="http://robtheswan.com/wiki/index.php?title=Main_Page" target="_blank" title="Opens a new tab"><li class="mobile-link">Wiki</li></a>
-      <a href="contact.htm"><li class="mobile-link">Contact</li></a>
-      <a href="faq.htm"><li class="mobile-link">FAQ</li></a>
+        <a href="index.php"><li             class="mobile-link">Home</li></a>
+        <a href="index.php#download"><li    class="mobile-link">Download</li></a>
+        <a href="faq.php"><li               class="mobile-link">FAQ</li></a>
+        <a href="devlog.php"><li            class="mobile-link">Devlog</li></a>
+        <a href="media.php"><li             class="mobile-link">Media &amp; Press</li></a>
+        <a href="contact.php"><li           class="mobile-link">Contact</li></a>        
     </nav>
   </div>
 </header>
