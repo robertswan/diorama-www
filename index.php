@@ -46,7 +46,7 @@
 
       <div id="trailer">
         <!-- <iframe width="100%" height="600px" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/qEYOyZVWlzs?list=PLzPGxMkpbClUgWjg7QiV5dqeCTQh8M-6t"></iframe> -->
-        <img id="trailer-img" src="imgs/trailer_00.png" width="100%"></img>
+        <!--<img id="trailer-img" src="" width="100%"></img>-->
       </div>
 
       <section class="section">
