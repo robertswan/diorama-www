@@ -19,7 +19,7 @@ html, body {
     font-size: 14px;
     font-weight: bold;
 
-    background: url("../imgs/_background.png");
+    background: url("../imgs/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -29,21 +29,32 @@ html, body {
     width: 1100px;
     height: auto;
 
-    margin: 0 auto;
+    margin: auto;
 
     position: relative;
 }
 
 #main-header {
     width: 100%;
-    height: 135px;
+    /*height: 135px;*/
 }
+
+#wrap 
+{
+    min-height: 100%;
+}
+
+#main 
+{
+    overflow:auto;
+    padding-bottom: 150px;
+}  /* must be same height as the footer */
 
 /*==============LOGO==============*/
 
 #logo {
     width: 100px;
-    height: 150px;
+    height: 130px;
 
     position: relative;
 
@@ -59,9 +70,6 @@ html, body {
 
     position: relative;
     top: -30px;
-
-    /*Font Stuff*/
-    /*font-family: 'Baloo Da', cursive;*/
 
     font-size: 24px;
     font-weight: bold;
@@ -135,7 +143,7 @@ html, body {
 #nav-mobile {
 	display:none;
 	height: 32px;
-	margin-right: 15px;
+	/*margin-right: 15px;*/
 	padding-top: 2px
 }
 
@@ -179,7 +187,7 @@ html, body {
 
   position: relative;
 
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 
   box-sizing: border-box;
   padding-left: 20px;
@@ -204,9 +212,12 @@ html, body {
   width: 100%;
   height: 600px;
 
-  box-sizing: border-box;
+  background: url("../imgs/trailer_00.jpg");
+  background-size: 100%;
+  /*background-position: center;*/
+  background-repeat: no-repeat;
 
-  margin-bottom: 30px;
+  /*margin-bottom: 10px;*/
 
   color: white;
 }
@@ -228,8 +239,9 @@ html, body {
 .section {
   width: 100%;
   height: auto;
+  padding: 0 0 10px 0;
 
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
 
   /*Font Stuff*/
   /*font-family: 'Baloo Da', cursive;*/
@@ -242,7 +254,7 @@ html, body {
   width: 100%;
   height: 45px;
 
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 
     font-family: 'Baloo Da', cursive;
 
@@ -261,7 +273,7 @@ html, body {
   width: 100%;
   height: auto;
 
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 
   background: #9CC6CB;
 
@@ -395,13 +407,33 @@ html, body {
 }
 
 /*==============FOOTER==============*/
+
+#sticky-footer
+{
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    background-color: #000000;
+} 
+
+/*Opera Fix*/
+body:before 
+{/* thanks to Maleika (Kohoutec)*/
+    content:"";
+    height:100%;
+    float:left;
+    width:0;
+    margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
 #social {
   width: 240px;
   height: 80px;
 
   position: relative;
 
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 #twitch {
@@ -451,9 +483,9 @@ html, body {
 
 #foot-wrap {
   width: 100%;
-  height: auto;
+  /*height: auto;*/
 
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 
   color: white;
   font-size: 18px;
@@ -493,7 +525,7 @@ html, body {
   width: 64px;
   height: 64px;
 
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 #social {
@@ -504,14 +536,14 @@ html, body {
   top: 20px;
   left: 85px;
 
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 #link-right {
   width: 100%;
   height: auto;
 
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 
   position: relative;
   top: 90px;
@@ -537,7 +569,7 @@ a, .social-link:visited, .social-link:active {
 .foot-link {
   position: relative;
 
-  margin-left: 15px;
+  /*margin-left: 15px;*/
 
   text-decoration: none;
   list-style: none;
@@ -552,7 +584,7 @@ a, .social-link:visited, .social-link:active {
 
 .foot-box {
   width: 33%;
-  height: 200px;
+  /*height: 200px;*/
 
   float: left;
 
@@ -582,7 +614,7 @@ a, .social-link:visited, .social-link:active {
 
   background: transparent;
 
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
 
   color: white;
   font-size: 16px;
@@ -593,7 +625,7 @@ a, .social-link:visited, .social-link:active {
   width: 100%;
   height: 40px;
 
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
 
   box-sizing: border-box;
   padding-left: 5px;
@@ -651,7 +683,7 @@ a, .social-link:visited, .social-link:active {
     width: 100%;
     height: auto;
 
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
   }
 
   #nav {
@@ -678,7 +710,7 @@ a, .social-link:visited, .social-link:active {
   #trailer {
     width: 100%;
     height: auto;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
   }
 
   #nav {
@@ -719,7 +751,7 @@ a, .social-link:visited, .social-link:active {
     width: 100%;
     height: auto;
 
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
   }
 
   #right {
@@ -805,11 +837,15 @@ a, .social-link:visited, .social-link:active {
     #trailer {
         z-index: 2;
         position: relative;
-        top: -5px;
-
     }
 
     iframe {
+      position: relative;
+      top: -60px;
+      z-index: 1;
+    }
+
+    #trailer-img {
       position: relative;
       top: -60px;
       z-index: 1;

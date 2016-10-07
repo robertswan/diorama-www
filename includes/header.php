@@ -10,7 +10,7 @@
 
 
 <header id="main-header">
-  <div class="three columns">
+  <div>
     <a href="index.php">
       <div id="logo"></div>
     </a>
