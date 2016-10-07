@@ -162,12 +162,16 @@ html, body {
 	position: fixed;
 	top: 0;
 	right: -230px;
-	width: 210px;
+	width: 250px;
 	height: 100%;
 	padding: 10px;
-	text-align: center;
+	/*text-align: center;*/
 	z-index: 1;
 	color: white;
+}
+
+.menu_slide .mobile-header{
+  margin-left: 10px;
 }
 
 .menu_slide .mobile-link {
