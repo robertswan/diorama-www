@@ -40,4 +40,5 @@
 
     <!--JQuery-->
     <script src="js/jquery.min.js"></script>
+    <script src="js/switchmenu.js"></script>
     <script src="js/lightbox.min.js"></script>
