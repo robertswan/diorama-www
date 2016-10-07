@@ -34,7 +34,7 @@
   </div>
 
   <div class="menu_slide">
-    <h2>Menu</h2>
+    <h2 class="mobile-header">Menu</h2>
     <nav>
       <a href="index.htm"><li class="mobile-link">Home</li></a>
       <!--<a href="#"><li class="buy">Store</li></a>-->
