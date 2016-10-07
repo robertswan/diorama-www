@@ -58,13 +58,36 @@ html, body {
     height: auto;
 
     position: relative;
-    top: -30px;
+    top: -30px ;
 
     font-size: 24px;
     font-weight: bold;
 
     text-align: center;
 }
+
+/*==============LIVESTATUS==============*/
+.live-status {
+  position: relative;
+  top: -100px;
+  left: 100px;
+  float: left;
+  font-family: 'Hammersmith One', cursive;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  height: 46px;
+  width: 300px;
+}
+.live-status a {
+  text-decoration: none;
+}
+.live-status a img {
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+
 
 /*==============NAVIGATION==============*/
 
