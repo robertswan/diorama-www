@@ -57,11 +57,5 @@
     <div id="sticky-footer">
       <?php include ("includes/footer.php");?>
     </div>
-
-    <!--JQuery-->
-    <script src="js/jquery.min.js"></script>
-
-    <!--Custom Scripts-->
-    <script src="js/switchmenu.js"></script>
   </body>
 </html>

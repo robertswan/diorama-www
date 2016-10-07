@@ -6,6 +6,16 @@
         echo $headPageName;
     }
 
+    function getAdditionalStyleSheets ()
+    {
+        global $headAdditionalStyleSheets;
+        $styles_count = count ($headAdditionalStyleSheets);
+        for ($idx = 0; $idx < $styles_count; $idx++) 
+        {
+             echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . $headAdditionalStyleSheets [$idx] . "\">";
+        } 
+    }
+
 ?>
 
   <head>
@@ -31,6 +41,8 @@
     <!--CSS-->
     <script src="js/sweetalert.min.js"></script>
 
+    <?php getAdditionalStyleSheets();?>
+    
     <!--[if !IE 7]>
         <style type="text/css">
             #wrap {display:table;height:100%}
