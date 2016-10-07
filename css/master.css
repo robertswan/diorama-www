@@ -39,12 +39,12 @@ html, body {
     /*height: 135px;*/
 }
 
-#wrap 
+#wrap
 {
     min-height: 100%;
 }
 
-#main 
+#main
 {
     overflow:auto;
     padding-bottom: 150px;
@@ -154,7 +154,7 @@ html, body {
 }
 
 .menu_open {
-	right: 230px;
+	right: 270px;
 }
 
 .menu_open .menu_slide {
@@ -172,13 +172,16 @@ html, body {
 	background-color: #5D94B2;
 	position: fixed;
 	top: 0;
-	right: -230px;
-	width: 210px;
+	right: -270px;
+	width: 250px;
 	height: 100%;
 	padding: 10px;
-	text-align: center;
 	z-index: 1;
 	color: white;
+}
+
+.menu_slide .mobile-header {
+    margin-left: 10px;
 }
 
 .menu_slide .mobile-link {
@@ -415,10 +418,10 @@ html, body {
     height: 150px;
     clear:both;
     background-color: #000000;
-} 
+}
 
 /*Opera Fix*/
-body:before 
+body:before
 {/* thanks to Maleika (Kohoutec)*/
     content:"";
     height:100%;
