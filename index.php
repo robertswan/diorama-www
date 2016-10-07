@@ -186,5 +186,6 @@
 
     <!--Custom Scripts-->
     <script src="js/switchmenu.js"></script>
+    <script src="js/twitch_status.js"></script>
   </body>
 </html>

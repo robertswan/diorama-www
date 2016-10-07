@@ -78,6 +78,7 @@ html, body {
   text-align: center;
   height: 46px;
   width: 300px;
+  display: none;
 }
 .live-status a {
   text-decoration: none;

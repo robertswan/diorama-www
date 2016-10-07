@@ -20,8 +20,8 @@
   <div class="live-status">
     <a href="https://twitch.tv/robtheswan" target="_blank">
       <img src="imgs/twitch-icon-transparant.png" alt="" />
-      <div id="live-status-text">i'm currently live! Join us</div>
-      <div id="live-status-count">18 viewers</div>
+      <div id="live-status-text"></div>
+      <div id="live-status-count"></div>
     </a>
   </div>
 
