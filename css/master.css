@@ -39,12 +39,12 @@ html, body {
     /*height: 135px;*/
 }
 
-#wrap 
+#wrap
 {
     min-height: 100%;
 }
 
-#main 
+#main
 {
     overflow:auto;
     padding-bottom: 150px;
@@ -76,7 +76,28 @@ html, body {
 
     text-align: center;
 }
-
+/*==============LIVESTATUS==============*/
+.live-status {
+  position: relative;
+  top: -100px;
+  left: 100px;
+  float: left;
+  font-family: 'Hammersmith One', cursive;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  height: 46px;
+  width: 300px;
+  display: none;
+}
+.live-status a {
+  text-decoration: none;
+}
+.live-status a img {
+  height: 50px;
+  width: 50px;
+  float: left;
+}
 /*==============NAVIGATION==============*/
 
 #nav-wrap {
@@ -415,10 +436,10 @@ html, body {
     height: 150px;
     clear:both;
     background-color: #000000;
-} 
+}
 
 /*Opera Fix*/
-body:before 
+body:before
 {/* thanks to Maleika (Kohoutec)*/
     content:"";
     height:100%;
