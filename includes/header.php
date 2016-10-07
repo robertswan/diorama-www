@@ -16,6 +16,15 @@
     </a>
   </div>
 
+  <!-- Twitch live status -->
+  <div class="live-status">
+    <a href="https://twitch.tv/robtheswan" target="_blank">
+      <img src="imgs/twitch-icon-trans.png" alt="" />
+      <div id="live-status-text"></div>
+      <div id="live-status-count"></div>
+    </a>
+  </div>
+
   <div id="nav-wrap">
     <nav id="nav">
         <a href="index.php"><li             class=<?php getHeaderClass("home");?>>Home</li></a>
