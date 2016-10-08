@@ -77,11 +77,26 @@ html, body {
     text-align: center;
 }
 
+/*==============TWITCH STATUS==============*/
+#twitch-status {
+  width: 180px;
+  height: 60px;
+
+  position: relative;
+  top: -55px;
+  right: -200px;
+
+  float:right;
+
+  background: white;
+}
+
 /*==============NAVIGATION==============*/
 
 #nav-wrap {
   position: relative;
   top: -100px;
+  right: 200px;
 
   float: right;
 
