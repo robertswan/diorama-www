@@ -84,7 +84,7 @@ html, body {
 
   position: relative;
   top: -55px;
-  right: -180px;
+  right: -200px;
 
   float:right;
 
@@ -96,7 +96,7 @@ html, body {
 #nav-wrap {
   position: relative;
   top: -100px;
-  right: 180px;
+  right: 200px;
 
   float: right;
 
