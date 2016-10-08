@@ -39,12 +39,12 @@ html, body {
     /*height: 135px;*/
 }
 
-#wrap 
+#wrap
 {
     min-height: 100%;
 }
 
-#main 
+#main
 {
     overflow:auto;
     padding-bottom: 150px;
@@ -173,7 +173,7 @@ html, body {
 	position: fixed;
 	top: 0;
 	right: -230px;
-	width: 210px;
+	width: 180px;
 	height: 100%;
 	padding: 10px;
 	text-align: center;
@@ -186,8 +186,6 @@ html, body {
   height: 45px;
 
   position: relative;
-
-  /*margin: 0 auto;*/
 
   box-sizing: border-box;
   padding-left: 20px;
@@ -411,14 +409,15 @@ html, body {
 #sticky-footer
 {
     position: relative;
-    margin-top: -150px; /* negative value of footer height */
+    margin-top: -150px;
     height: 150px;
     clear:both;
-    background-color: #000000;
-} 
+
+    background: #668691;
+}
 
 /*Opera Fix*/
-body:before 
+body:before
 {/* thanks to Maleika (Kohoutec)*/
     content:"";
     height:100%;
@@ -433,7 +432,6 @@ body:before
 
   position: relative;
 
-  /*margin: 0 auto;*/
 }
 
 #twitch {
@@ -483,9 +481,6 @@ body:before
 
 #foot-wrap {
   width: 100%;
-  /*height: auto;*/
-
-  /*margin: 0 auto;*/
 
   color: white;
   font-size: 18px;
@@ -516,8 +511,9 @@ body:before
 }
 
 #copy {
+  margin: 0 auto;
   position: relative;
-  top: 80px;
+  top: 65px;
 
 }
 
@@ -525,7 +521,6 @@ body:before
   width: 64px;
   height: 64px;
 
-  /*margin: 0 auto;*/
 }
 
 #social {
@@ -536,14 +531,11 @@ body:before
   top: 20px;
   left: 85px;
 
-  /*margin: 0 auto;*/
 }
 
 #link-right {
   width: 100%;
   height: auto;
-
-  /*margin: 0 auto;*/
 
   position: relative;
   top: 90px;
@@ -569,8 +561,6 @@ a, .social-link:visited, .social-link:active {
 .foot-link {
   position: relative;
 
-  /*margin-left: 15px;*/
-
   text-decoration: none;
   list-style: none;
   color: white; /*#8BBCCC;*/
@@ -584,11 +574,8 @@ a, .social-link:visited, .social-link:active {
 
 .foot-box {
   width: 33%;
-  /*height: 200px;*/
 
   float: left;
-
-  text-align: left;
 }
 
 /*==============CONTACT FORM==============*/
@@ -614,7 +601,7 @@ a, .social-link:visited, .social-link:active {
 
   background: transparent;
 
-  /*margin-bottom: 10px;*/
+  margin-bottom: 5px;
 
   color: white;
   font-size: 16px;
@@ -625,7 +612,7 @@ a, .social-link:visited, .social-link:active {
   width: 100%;
   height: 40px;
 
-  /*margin-bottom: 10px;*/
+  margin-bottom: 5px;
 
   box-sizing: border-box;
   padding-left: 5px;

@@ -33,8 +33,6 @@
 
         <div id="link-right">
           <a href="#" class="foot-link">Sitemap</a>
-          <a href="#" class="foot-link">Privacy</a>
-          <a href="#" class="foot-link">Terms of use</a>
         </div>
       </div>
     </div>
@@ -42,4 +40,5 @@
 
     <!--JQuery-->
     <script src="js/jquery.min.js"></script>
+    <script src="js/switchmenu.js"></script>
     <script src="js/lightbox.min.js"></script>
