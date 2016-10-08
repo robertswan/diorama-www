@@ -19,7 +19,7 @@ html, body {
     font-size: 14px;
     font-weight: bold;
 
-    background: url("../imgs/original/_background.png");
+    background: url("../imgs/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -77,11 +77,26 @@ html, body {
     text-align: center;
 }
 
+/*==============TWITCH STATUS==============*/
+#twitch-status {
+  width: 180px;
+  height: 60px;
+
+  position: relative;
+  top: -55px;
+  right: -180px;
+
+  float:right;
+
+  background: white;
+}
+
 /*==============NAVIGATION==============*/
 
 #nav-wrap {
   position: relative;
   top: -100px;
+  right: 180px;
 
   float: right;
 
@@ -346,7 +361,7 @@ html, body {
 /*====Linux====*/
 
 #linux-head {
-  background: url("../imgs/original/linux.png");
+  background: url("../imgs/linux.png");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -390,7 +405,7 @@ html, body {
   float: right;
   z-index: 99;
 
-  background: url("../imgs/original/arrow.png");
+  background: url("../imgs/arrow.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
