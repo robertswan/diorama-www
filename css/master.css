@@ -96,6 +96,7 @@ html, body {
 #nav-wrap {
   position: relative;
   top: -100px;
+  right: 200px;
 
   float: right;
 
