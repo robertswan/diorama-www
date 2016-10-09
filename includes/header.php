@@ -25,6 +25,10 @@
         <a href="media.php"><li             class=<?php getHeaderClass("media");?>>Media &amp; Press</li></a>
         <a href="contact.php"><li           class=<?php getHeaderClass("contact");?>>Contact</li></a>
     </nav>
+
+    <div id="twitch-status">
+      <iframe src="http://streambadge.com/twitch/light/robtheswan/" style="border:none;width:100%; height:4em;"></iframe>
+    </div>
   </div>
 
   <div id="nav-mobile">

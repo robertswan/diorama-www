@@ -77,11 +77,26 @@ html, body {
     text-align: center;
 }
 
+/*==============TWITCH STATUS==============*/
+#twitch-status {
+  width: 180px;
+  height: 60px;
+
+  position: relative;
+  top: -55px;
+  right: -200px;
+
+  float:right;
+
+  background: white;
+}
+
 /*==============NAVIGATION==============*/
 
 #nav-wrap {
   position: relative;
   top: -100px;
+  right: 200px;
 
   float: right;
 
@@ -116,17 +131,6 @@ html, body {
   background: #5D94B2;
 }
 
-/*Buy Button*/
-.buy {
-  color: white;
-  background: #4DA326;
-}
-
-.buy:hover {
-  transition: all 0.5s;
-  background: #57B82A;
-}
-
 /*Mobile Navigation*/
 .menu_toggle {
 	padding: 15px;
@@ -140,7 +144,6 @@ html, body {
 #nav-mobile {
 	display:none;
 	height: 32px;
-	/*margin-right: 15px;*/
 	padding-top: 2px
 }
 
@@ -232,8 +235,6 @@ html, body {
   width: 100%;
   height: auto;
   padding: 0 0 10px 0;
-  /*Font Stuff*/
-  /*font-family: 'Baloo Da', cursive;*/
 
   font-size: 16px;
   font-weight: normal;
@@ -243,7 +244,7 @@ html, body {
   width: 100%;
   height: 45px;
 
-    font-family: 'Baloo Da', cursive;
+  font-family: 'Baloo Da', cursive;
 
   box-sizing: border-box;
   padding-left: 10px;
@@ -378,15 +379,6 @@ html, body {
   background-repeat: no-repeat;
 }
 
-#helplink {
-  width: 200px;
-  height: 60px;
-
-  position: relative;
-  top: -25px;
-  left: -65px;
-}
-
 /*==============FOOTER==============*/
 
 #sticky-footer
@@ -409,7 +401,7 @@ body:before
     margin-top:-32767px;/* thank you Erik J - negate effect of float*/
 }
 
-#twitch 
+#twitch
 {
     background: url("../imgs/twitch-icon-small.png");
     background-size: 32px 32px;
@@ -417,7 +409,7 @@ body:before
     background-repeat: no-repeat;
 }
 
-#twitter 
+#twitter
 {
     background: url("../imgs/twitter.png");
     background-size: 32px 32px;
@@ -425,7 +417,7 @@ body:before
     background-repeat: no-repeat;
 }
 
-#youtube 
+#youtube
 {
     background: url("../imgs/youtube.png");
     background-size: 32px 32px;
@@ -433,7 +425,7 @@ body:before
     background-repeat: no-repeat;
 }
 
-#foot-wrap 
+#foot-wrap
 {
     width: 100%;
     display: table;
@@ -449,7 +441,7 @@ body:before
     vertical-align: middle;
 }
 
-#foot-left 
+#foot-left
 {
     width: 25%;
 }
@@ -461,12 +453,12 @@ body:before
     color: inherit;
 }
 
-#foot-mid 
+#foot-mid
 {
     width: 50%;
 }
 
-#foot-right 
+#foot-right
 {
     width: 25%;
 }
@@ -478,7 +470,7 @@ body:before
     color: inherit;
 }
 
-#foot-nav 
+#foot-nav
 {
   text-decoration: none;
   list-style: none;
@@ -601,7 +593,6 @@ a, .social-link:visited, .social-link:active {
     width: 100%;
     height: auto;
 
-    /*margin-bottom: 10px;*/
   }
 
   #nav {
@@ -628,7 +619,6 @@ a, .social-link:visited, .social-link:active {
   #trailer {
     width: 100%;
     height: auto;
-    /*margin-bottom: 10px;*/
   }
 
   #nav {
@@ -669,7 +659,6 @@ a, .social-link:visited, .social-link:active {
     width: 100%;
     height: auto;
 
-    /*margin-bottom: 10px;*/
   }
 
   #right {
