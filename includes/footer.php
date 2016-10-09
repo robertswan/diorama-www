@@ -14,12 +14,10 @@
             <br>
             All Rights Reserved.
       </div>
-
         <div id="foot-right" class="foot-box">
             <a href="http://twitch.tv/robtheswan"><div id="twitch" class="social-link"></div></a>
             <a href="http://twitter.com/robtheswandev"><div id="twitter" class="social-link"></div></a>
-            <a href="http://youtube.com/c/dioramagame"><div id="youtube" class="social-link"></div></a>
-            <br>
+            <a href="http://youtube.com/c/dioramagame"><div id="youtube" class="social-link"></div></a><!-- <br> -->
             <!-- <a href="#" class="foot-link">Sitemap</a> -->
         </div>
     </div>
