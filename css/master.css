@@ -79,29 +79,26 @@ html, body {
 
 /*==============TWITCH STATUS==============*/
 #twitch-status {
-  width: 180px;
-  height: 60px;
 
-  position: relative;
-  top: -55px;
-  right: -200px;
+    padding-left: 10px;
+    width: 220px;
+    height: 64px;
 
-  float:right;
-
-  background: white;
+    padding-top: 30px;
+    float:right;
 }
 
 /*==============NAVIGATION==============*/
 
+#header-logo
+{
+    display: inline-block;
+}
+
 #nav-wrap {
-  position: relative;
-  top: -100px;
-  right: 200px;
 
-  float: right;
-
-  /*Font Stuff*/
-  /*font-family: 'Baloo Da', cursive;*/
+    padding-top: 40px;
+    float: right;
 
   font-size: 18px;
   font-weight: bold;
@@ -746,12 +743,12 @@ a, .social-link:visited, .social-link:active {
         position: relative;
     }
 
-    iframe {
+/*    iframe {
       position: relative;
       top: -60px;
       z-index: 1;
     }
-
+*/
     #trailer-img {
       position: relative;
       top: -60px;

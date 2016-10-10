@@ -10,11 +10,14 @@
 
 
 <header id="main-header">
-  <div>
+  <div id="header-logo">
     <a href="index.php">
       <div id="logo"></div>
     </a>
   </div>
+
+    <div id="twitch-status"><iframe src="http://streambadge.com/twitch/custom/ffffff/000000/5D94B2/robtheswan/" style="border:none;height:64px;width:100%"></iframe></div>
+    <!-- <div id="twitch-status"><iframe src="http://streambadge.com/twitch/robtheswan/" style="border:none;width:100%"></iframe></div> -->
 
   <div id="nav-wrap">
     <nav id="nav">
@@ -26,9 +29,6 @@
         <a href="contact.php"><li           class=<?php getHeaderClass("contact");?>>Contact</li></a>
     </nav>
 
-    <div id="twitch-status">
-      <iframe src="http://streambadge.com/twitch/light/robtheswan/" style="border:none;width:100%; height:4em;"></iframe>
-    </div>
   </div>
 
   <div id="nav-mobile">
