@@ -2,7 +2,7 @@
     <div id="foot-wrap">
       <div id="foot-left" class="foot-box">
           <a href="index.php"><li>Home</li></a>
-          <a href="index.php#download"><li>Download</li></a>
+          <a href="downloads.php"><li>Download</li></a>
           <a href="faq.php"><li>FAQ</li></a>
           <a href="devlog.php"><li>Devlog</li></a>
           <a href="media.php"><li>Media &amp; Press</li></a>

@@ -3,21 +3,19 @@
 /*Icons made by Lyolya         - Creative Commons 3.0 (creativecommons.org/licenses/by/3.0) */
 /*Icons made by Gregor Cresnar - Creative Commons 3.0 (creativecommons.org/licenses/by/3.0) */
 
-@import 'https://fonts.googleapis.com/css?family=Baloo+Da';
+/*@import 'https://fonts.googleapis.com/css?family=Baloo+Da';*/
 @import 'https://fonts.googleapis.com/css?family=Hammersmith+One';
 
-html, body {
+html, body 
+{
     margin: 0;
     padding: 0;
 
     width: 100%;
     height: 100%;
 
-    /*Font Stuff*/
-    font-family: 'Hammersmith One', cursive;
-
+    font-family: 'Hammersmith One', 'Arial', cursive;
     font-size: 14px;
-    font-weight: bold;
 
     background: url("../imgs/background.jpg");
     background-size: cover;
@@ -25,18 +23,10 @@ html, body {
     background-attachment: fixed;
 }
 
-.container {
+.container 
+{
     width: 1100px;
-    height: auto;
-
     margin: auto;
-
-    position: relative;
-}
-
-#main-header {
-    width: 100%;
-    /*height: 135px;*/
 }
 
 #wrap
@@ -46,13 +36,14 @@ html, body {
 
 #main
 {
-    overflow:auto;
+    overflow: auto;
     padding-bottom: 125px;
 }  /* must be same height as the footer */
 
 /*==============LOGO==============*/
 
-#logo {
+#logo 
+{
     width: 100px;
     height: 130px;
 
@@ -64,28 +55,14 @@ html, body {
     background-repeat: no-repeat;
 }
 
-#logo-text {
-    width: 100px;
-    height: auto;
-
-    position: relative;
-    top: -30px;
-
-    font-size: 24px;
-    font-weight: bold;
-
-    text-align: center;
-}
-
 /*==============TWITCH STATUS==============*/
-#twitch-status {
-
+#twitch-status 
+{
+    padding-top: 30px;
     padding-left: 10px;
+    float: right;
     width: 220px;
     height: 64px;
-
-    padding-top: 30px;
-    float:right;
 }
 
 /*==============NAVIGATION==============*/
@@ -95,44 +72,48 @@ html, body {
     display: inline-block;
 }
 
-#nav-wrap {
-
+#nav-wrap 
+{
     padding-top: 40px;
     float: right;
 
-  font-size: 18px;
-  font-weight: bold;
+    font-size: 18px;
+    font-weight: bold;
 
-  text-align: center;
+    text-align: center;
 }
 
-#nav li {
-  padding: 12px 20px;
-  box-sizing: border-box;
-  display: inline-block;
+#nav li 
+{
+    padding: 12px 20px;
+    box-sizing: border-box;
+    display: inline-block;
 }
 
-.active {
-  background: #5D94B2;
+.active 
+{
+    background: #5D94B2;
 }
 
-.link {
-  text-decoration: none;
-  list-style: none;
-
-  color: white; /*#8BBCCC*/
+.link 
+{
+    list-style: none;
+    color: white;
 }
 
-.link:hover {
-  transition: all 0.5s;
-  background: #5D94B2;
+#nav-wrap .link:hover 
+{
+    transition: all 0.5s;
+    color: red;
+    background: white;
 }
 
 /*Mobile Navigation*/
-.menu_toggle {
-	padding: 15px;
-	top: -35px;
-	position: relative;
+.menu_toggle 
+{
+    padding: 15px;
+    top: -35px;
+    position: relative;
 }
 
 .menu_slide a:link {color: white; text-decoration: none;}
@@ -220,53 +201,39 @@ html, body {
 }
 
 /*==============INFO STUFF==============*/
-#right {
-  position: relative;
-  top: -394px;
-  right: 45px;
-
-  float: right;
+.section 
+{
+    width: 100%;
+    padding: 0 0 10px 0;
+    font-size: 16px;
 }
 
-.section {
-  width: 100%;
-  height: auto;
-  padding: 0 0 10px 0;
+.section-head 
+{
+    width: 100%;
+    padding-left: 20px;
 
-  font-size: 16px;
-  font-weight: normal;
+    box-sizing: border-box;
+    background: #5D94B2;
+
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 2;
+    color: white;
 }
 
-.section-head {
-  width: 100%;
-  height: 45px;
-
-  font-family: 'Baloo Da', cursive;
-
-  box-sizing: border-box;
-  padding-left: 10px;
-
-  background: #5D94B2;
-
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 2;
-  color: white;
-}
-
-.section-desc {
-  width: 100%;
-  height: auto;
-
-  background: #9CC6CB;
-
-  box-sizing: border-box;
-  padding: 20px;
+.section-desc 
+{
+    box-sizing: border-box;
+    width: 100%;
+    background: #9CC6CB;
+    padding: 20px;
 }
 
 /*==============PLATFORMS==============*/
 
-.platform {
+.platform 
+{
   width: 45%;
   height: 60px;
 
@@ -275,7 +242,6 @@ html, body {
   border: 1px solid black;
 
   font-size: 15px;
-  font-weight: normal;
 
   line-height: 4;
   text-align: left;
@@ -350,30 +316,30 @@ html, body {
 
   line-height: 4.2;
 
-  font-weight: normal;
   font-size: 19px;
   text-align: center;
 }
 
-.d-link, .dtext:hover {
-  color: #EEEEEE;
-  transition: all 0.5s;
+.d-link, .dtext:hover 
+{   
+    color: red;
 }
 
-.arrow {
-  width: 32px;
-  height: 32px;
+.arrow 
+{
+    width: 32px;
+    height: 32px;
 
-  position: relative;
-  top: -100px;
-  right: 75px;
+    position: relative;
+    top: -100px;
+    right: 75px;
 
-  float: right;
-  z-index: 99;
+    float: right;
+    z-index: 99;
 
-  background: url("../imgs/arrow.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
+    background: url("../imgs/arrow.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 /*==============FOOTER==============*/
@@ -430,34 +396,40 @@ body:before
     font-size: 14px;
 }
 
-.foot-box {
+.foot-box 
+{
     padding-top: 10px;
     text-align: center;
-    /*outline: #00FF00 dotted thick;*/
     display: table-cell;
     vertical-align: middle;
 }
 
 #foot-left
 {
-    width: 25%;
+    width: 32%;
 }
 
 #foot-left a
 {
     text-decoration: none;
     list-style: none;
-    color: inherit;
+    color: white;
+}
+
+#foot-left a:hover
+{
+    text-decoration: underline;
+    color: red;
 }
 
 #foot-mid
 {
-    width: 50%;
+    width: 32%;
 }
 
 #foot-right
 {
-    width: 25%;
+    width: 32%;
 }
 
 #foot-right a
@@ -485,13 +457,12 @@ a, .social-link:visited, .social-link:active {
 }
 
 .text-link {
-    text-decoration: none;
-    color: darkblue;
+    color: mediumblue;
 }
 
 .text-link:hover {
-    text-decoration: underline;
-    color: lightcyan;
+    /*text-decoration: underline;*/
+    color: red;
 }
 
 .foot-link:hover {
@@ -499,75 +470,68 @@ a, .social-link:visited, .social-link:active {
 }
 
 /*==============CONTACT FORM==============*/
-#form {
-  width: 50%;
-  height: auto;
-
-  font-family: 'Baloo Da', cursive;
-  font-size: 14px;
+#form 
+{
+    width: 50%;
+    height: auto;
+    font-size: 14px;
 }
 
-#textarea {
-  width: 100%;
-  height: 100px;
+#textarea 
+{
+    width: 100%;
+    height: 100px;
 
-  box-sizing: border-box;
-  padding: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 3px solid #5D94B2;
+    margin-bottom: 5px;
 
-  border: 3px solid #5D94B2;
+    outline: none;
+    resize: none;
 
-  outline: none;
-  resize: none;
-
-  background: transparent;
-
-  margin-bottom: 5px;
-
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
+    background: inherit;
+    font-family: inherit;
+    color: white;
+    font-size: 16px;
 }
 
-.field {
-  width: 100%;
-  height: 40px;
+.field 
+{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    padding-left: 5px;
 
-  margin-bottom: 5px;
+    background: transparent;
+    border: 3px solid #5D94B2;
 
-  box-sizing: border-box;
-  padding-left: 5px;
-
-  background: transparent;
-
-  outline: none;
-  border: 3px solid #5D94B2;
-
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-
+    font-family: inherit;
+    color: white;
+    font-size: 16px;
 }
 
-.button {
-  width: 100px;
-  height: 35px;
+.button 
+{
+    width: 100px;
+    height: 35px;
 
-  outline: none;
+    border: 3px solid #5D94B2;
+    background: transparent;
 
-  border: 3px solid #5D94B2;
-  background: transparent;
-
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
+    font-family: inherit;
+    color: white;
+    font-size: 14px;
 }
 
-.button:hover {
-  cursor: pointer;
-  background: #5D94B2;
-  color: white;
+.button:hover 
+{
+    cursor: pointer;
+    background: white;
+    color: red;
 
-  transition: all linear 0.15s;
+    transition: all linear 0.15s;
 }
 
 /*==============MEDIA QUERIES==============*/
