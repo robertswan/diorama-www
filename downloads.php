@@ -2,7 +2,7 @@
 <html>
 
     <?php 
-        $headPageName = "Diorama | FAQ";
+        $headPageName = "Diorama | Downloads";
         include ("includes/html_head.php");
     ?>
 

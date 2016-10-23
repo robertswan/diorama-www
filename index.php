@@ -48,7 +48,7 @@
               - RobTheSwan 2016<br>-->
 
               Diorama is a space themed blocky/voxel game. At it's core is a game engine designed for all players to create and share
-              many single and multiplayer games for years to come. My intention is to make large games in it.<p>
+              many single and multiplayer games for years to come. My intention is to make my own large games using it.<p>
 
               <h3>What you can do with it right now?</h3>
               <ul>
