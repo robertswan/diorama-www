@@ -27,7 +27,7 @@
             <div class="section-desc">
                 <ul>
                     <li></a><a href="devlogs/welcome-to-diorama.htm" class="text-link">One year's development!</a></li>
-                    <li></a><a href="downloads.php" class="text-link">Version 0.44.0 available for download</a></li>
+                    <li></a><a href="downloads.php" class="text-link">Version 0.46.0 available for download</a></li>
                 </ul>
             </div>
           </section>
@@ -47,30 +47,25 @@
               "The infinite landscape is so procedurally large that the likelihood of seeing other players, water or gameplay is limited"
               - RobTheSwan 2016<br>-->
 
-              Diorama is space themed blocky/voxel game. At it's heart is a game engine designed for Diorama's developer and users to create
-              many single and multiplayer games for the next few years.<p>
+              Diorama is a space themed blocky/voxel game. At it's core is a game engine designed for all players to create and share
+              many single and multiplayer games for years to come. My intention is to make large games in it.<p>
 
               <h3>What you can do with it right now?</h3>
               <ul>
-                <li>Play existing single player and multiplayer game modes:</li>
-                <ul>
-                  <li>Tiny Galaxy (SP)</li>
-                  <li>Creative (SP + MP)</li>
-                  <li>Plummet (MP)</li>
-                  <li>Voxel Arena (MP)</li>
-                </ul>
-                <li>Explore infinitely tall, wide, strange and happy worlds</li>
-                <li>Create and share new game modes using the <a href="https://www.lua.org/" class="text-link">programming language Lua</a></li>
+                <li>Play a variety of included game modes in single player and multiplayer.</li>
+                <li>Explore infinitely tall, wide, strange and happy worlds.</li>
+                <li>Create and share new game modes using the <a href="https://www.lua.org/" class="text-link">programming language Lua</a>.</li>
+                <li><a href="https://github.com/robertswan/diorama-game">Read and contribute</a> to the existing game modes.</li>
                 <li>Have fun!</li>
               </ul>
 
               <h3> What you can do with it in the future?</h3>
               <ul>
-                <li>Add rotating and moving blocks to the world</li>
-                <li>Add logic cubes for visual scripting</li>
-                <li>Suffer from the weather, seasons and global catastrophes</li>
-                <li>Build factory rooms to create blueprints</li>
-                <li>Use blueprints to spawn mobs, vehicles or direct builders</li>
+                <li>Add rotating and moving blocks to the world.</li>
+                <li>Add logic cubes for visual scripting.</li>
+                <li>Suffer from the weather, seasons and global catastrophes.</li>
+                <li>Build factory rooms to create blueprints.</li>
+                <li>Use blueprints to spawn mobs, vehicles or direct builders.</li>
                 <li>Have even more fun!</li>
               </ul>
 

@@ -232,6 +232,11 @@ html, body
 
 /*==============PLATFORMS==============*/
 
+.fullwidth
+{
+    clear: both;
+}
+
 .platform 
 {
   width: 45%;
