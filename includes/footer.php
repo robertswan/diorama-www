@@ -4,8 +4,8 @@
           <a href="index.php"><li>Home</li></a>
           <a href="downloads.php"><li>Download</li></a>
           <a href="faq.php"><li>FAQ</li></a>
-          <a href="devlog.php"><li>Devlog</li></a>
-          <a href="media.php"><li>Media &amp; Press</li></a>
+          <!-- <a href="devlog.php"><li>Devlog</li></a> -->
+          <a href="media.php"><li>Media</li></a>
           <a href="contact.php"><li>Contact</li></a>
       </div>
 

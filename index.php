@@ -26,7 +26,7 @@
             <header class="section-head">Recent Updates</header>
             <div class="section-desc">
                 <ul>
-                    <li></a><a href="devlogs/welcome-to-diorama.htm" class="text-link">One year's development!</a></li>
+                    <!-- <li></a><a href="devlogs/welcome-to-diorama.htm" class="text-link">One year's development!</a></li> -->
                     <li></a><a href="downloads.php" class="text-link">Version 0.46.0 available for download</a></li>
                 </ul>
             </div>
