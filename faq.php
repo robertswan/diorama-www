@@ -237,8 +237,8 @@
                     <p>
                         I've developed games and engines on the following platforms:
                         <ul>
-                            <li>Net Yaroze (!), PS1 and PS2.</li>
-                            <li>GBA, DS, 3DS, Wii.</li>
+                            <li>Net Yaroze (!), PS1, PS2 and PSP.</li>
+                            <li>GBA, DS, and Wii.</li>
                             <li>Xbox 360.</li>
                             <li>PC.</li>
                             <li>Android, iOS, Flash and Html5.</li>
