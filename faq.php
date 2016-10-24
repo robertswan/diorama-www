@@ -166,7 +166,7 @@
                     <p>
                         Yes please! You can:
                         <ul>
-                            <li><a href="https://www.patreon.com/diorama">Become a Patreon</a>. Petreon supporters currently get the best deal ever. Check it out!</li>
+                            <li><a href="https://www.patreon.com/diorama">Become a Patreon</a>. Patreon supporters currently get the best deal ever. Check it out!</li>
                             <li><a href="https://twitch.streamlabs.com/robtheswan">Send me a Donation</a>!</li>
                         </ul>                                
                     <p>  
