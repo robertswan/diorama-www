@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-    <?php 
+    <?php
         $headPageName = "Diorama | Home";
         include ("includes/html_head.php");
     ?>
@@ -16,36 +16,46 @@
           ?>
 
             <section class="section">
-                <div id="trailer">
-                    <!-- <iframe width="100%" height="600px" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/qEYOyZVWlzs?list=PLzPGxMkpbClUgWjg7QiV5dqeCTQh8M-6t"></iframe> -->
-                    <!--<img id="trailer-img" src="" width="100%"></img>-->
-                </div>
+              <div id="slider">
+                <a href="#" class="ctrl_next">></a>
+                <a href="#" class="ctrl_prev"><</a>
+
+                <ul>
+                  <li>SLIDE 1</li>
+                  <li>SLIDE 2</li>
+                  <li>SLIDE 3</li>
+                  <li>SLIDE 4</li>
+                </ul>
+              </div>
+            </section>
+
+            <section class="section">
+              <header class="section-head">Recent Updates</header>
+              <div class="section-desc">
+                <a href="downloads.php" class="text-link">Version 0.46.0 available for download</a>
+              </div>
             </section>
 
           <section class="section">
-            <header class="section-head">Recent Updates</header>
+            <header class="section-head">Devlog</header>
             <div class="section-desc">
-                <ul>
-                    <!-- <li></a><a href="devlogs/welcome-to-diorama.htm" class="text-link">One year's development!</a></li> -->
-                    <li></a><a href="downloads.php" class="text-link">Version 0.46.0 available for download</a></li>
-                </ul>
+              <?php
+                include_once "backend/config.php";
+                $result = mysqli_query($conn, "SELECT * FROM updates ORDER BY id DESC");
+
+
+                while($res = mysqli_fetch_array($result))
+                {
+                    echo "<a href='view.php?id=$res[id]'>" . $res["title"] . "</a>";
+                    echo "<small>" . "  "  . date("d M Y", strtotime($res["pubDate"])) . " </small>";
+                }
+              ?>
             </div>
           </section>
 
           <section class="section">
             <header class="section-head">About</header>
             <div class="section-desc">
-              <!--Diorama: The Infinite Survival Crafting Game With Space Ships, Naval Combat and the Best Mod Support of Any Game Ever*** <br>
-              <small>*water maybe included depending on the day</small><br>
-              <small>**gameplay not included</small><br>
-              <small>***voxels sold separately in upcoming DLC</small>
-
-              <br><br>
-
-              "It's very unlikely you will ever see water" - RobTheSwan 2016 <small>(It was really Blackbod that said this but who's keeping track)</small> <br>
-
-              "The infinite landscape is so procedurally large that the likelihood of seeing other players, water or gameplay is limited"
-              - RobTheSwan 2016<br>-->
 
               Diorama is a space themed blocky/voxel game. At it's core is a game engine designed for all players to create and share
               many single and multiplayer games for years to come. My intention is to make my own large games using it.<p>
@@ -79,5 +89,6 @@
     <div id="sticky-footer">
       <?php include ("includes/footer.php");?>
     </div>
+    <script src="js/slider.js"></script>
   </body>
 </html>
