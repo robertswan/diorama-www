@@ -26,7 +26,7 @@
               <div class="platform">
                 <header id="win-head" class="platform-header"></header>
                 <div class="platform-desc">WINDOWS</div>
-                <a href="http://bit.ly/1SFQIUQ" class="d-link">
+                <a href="http://bit.ly/2r09q3H" class="d-link">
                   <div id="bit86" class="arrow" title="Download Windows 64 bit">
                     <span class="dtext">x64</span>
                   </div>
