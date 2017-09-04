@@ -14,10 +14,9 @@ html, body {
     height: 100%;
 
     /*Font Stuff*/
-    font-family: 'Hammersmith One', cursive;
+    font-family: 'Hammersmith One', 'Arial', cursive;
 
     font-size: 14px;
-    font-weight: bold;
 
     background: url("../imgs/background.jpg");
     background-size: cover;
@@ -201,7 +200,68 @@ html, body {
 	-moz-transition: all 0.5s ease;
 }
 
-/*==============TRAILER==============*/
+/*==============SLIDER==============*/
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 1100px;
+  height: 600px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.ctrl_prev, a.ctrl_next {
+  position: absolute;
+  top: 45%;
+  z-index: 999;
+  display: block;
+  padding: 2% 1%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.ctrl_prev:hover, a.ctrl_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.ctrl_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.ctrl_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+/*==============TRAILER==============
 
 #trailer {
   width: 100%;
@@ -217,7 +277,7 @@ html, body {
 #trailer-img {
   max-width: 100%;
   height: auto;
-}
+}*/
 
 /*==============INFO STUFF==============*/
 #right {

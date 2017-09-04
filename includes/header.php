@@ -22,10 +22,9 @@
   <div id="nav-wrap">
     <nav id="nav">
         <a href="index.php"><li             class=<?php getHeaderClass("home");?>>Home</li></a>
-        <a href="index.php#download"><li    class=<?php getHeaderClass("download");?>>Download</li></a>
+        <a href="downloads.php"><li         class=<?php getHeaderClass("downloads");?>>Downloads</li></a>
         <a href="faq.php"><li               class=<?php getHeaderClass("faq");?>>FAQ</li></a>
-        <a href="devlog.php"><li            class=<?php getHeaderClass("devlog");?>>Devlog</li></a>
-        <a href="media.php"><li             class=<?php getHeaderClass("media");?>>Media &amp; Press</li></a>
+        <a href="media.php"><li             class=<?php getHeaderClass("media");?>>Media</li></a>
         <a href="contact.php"><li           class=<?php getHeaderClass("contact");?>>Contact</li></a>
     </nav>
 
@@ -41,10 +40,9 @@
     <h2>Menu</h2>
     <nav>
       <a href="index.php"><li class="mobile-link">Home</li></a>
-      <a href="index.php#download"><li class="mobile-link">Download</li></a>
+      <a href="downloads.php"><li class="mobile-link">Downloads</li></a>
       <a href="faq.php"><li class="mobile-link">FAQ</li></a>
-      <a href="devlog.php"><li class="mobile-link">Devlog</li></a>
-      <a href="media.php"><li class="mobile-link">Media &amp; Press</li></a>
+      <a href="media.php"><li class="mobile-link">Media</li></a>
       <a href="contact.php"><li class="mobile-link">Contact</li></a>
     </nav>
   </div>
