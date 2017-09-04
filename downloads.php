@@ -32,7 +32,7 @@
                   </div>
                 </a>
 
-                <a href="http://bit.ly/1T9UBii" class="d-link">
+                <a href="http://bit.ly/2qfKV3o" class="d-link">
                   <div class="arrow" title="Download Windows 32 bit">
                     <span class="dtext">x86</span>
                   </div>
@@ -43,13 +43,13 @@
                 <header id="mac-head" class="platform-header"></header>
                   <div class="platform-desc">MAC OS X</div>
 
-                  <a href="http://bit.ly/1NMBUzp">
+                  <a href="http://bit.ly/2qSLuib">
                     <div id="bit86" class="arrow" title="Download MacOS X 64 bit">
                       <span class="dtext">x64</span>
                     </div>
                   </a>
 
-                  <a href="http://bit.ly/1UdaGZp">
+                  <a href="http://bit.ly/2rYiEuq">
                     <div class="arrow" title="Download MacOS X 32 bit">
                       <span class="dtext">x86</span>
                     </div>
@@ -60,7 +60,7 @@
                     <header id="linux-head" class="platform-header"></header>
                     <div class="platform-desc">LINUX</div>
 
-                        <a href="http://bit.ly/1rdvJja">
+                        <a href="http://bit.ly/2rTK71d">
                             <div id="bit86" class="arrow" title="Download Linux 64 bit">
                                 <span class="dtext">x64</span>
                             </div>
